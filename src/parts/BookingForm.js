@@ -91,7 +91,7 @@ export default class BookingForm extends Component {
   }
 }
 
-BookingForm.prototype = {
+BookingForm.propTypes = {
   itemDetails: propTypes.object,
   startBooking: propTypes.func,
 };
